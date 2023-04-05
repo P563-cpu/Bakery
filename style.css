@@ -1,0 +1,137 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s ease-out;
+}
+
+nav a:hover {
+  color: #ff6f00;
+}
+
+main {
+  margin-top: 60px;
+}
+
+.slider {
+  height: 500px;
+  background-image: url('file:///C:/Users/PHILL-USER/Desktop/bakery/images/istockphoto-533725350-612x612.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.btn:hover {
+  background-color: #ff6f00;
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.services-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+}
+body {
+  background-image: url('file:///C:/Users/PHILL-USER/Desktop/bakery/images/istockphoto-1222596313-612x612.jpg');
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+   text-align: center;
+ }
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #00688B;
+}
+
